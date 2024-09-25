@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+img{
+    width: 1300px;
+    height: auto;
+}
+.bg{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    position: relative;
+}
+.play{
+    position: absolute;
+    width: 200px;
+    height: auto;
+    margin-top: 0px;
+    margin-left: 600px;
+    cursor: pointer;
+}
